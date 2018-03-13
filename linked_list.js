@@ -6,7 +6,7 @@ assert = function(predicate) {
   }
 }
 assertNot = function(predicate) { 
-    !assert(predicate);
+    assert(!predicate);
 }
 
 assert(list.add(4) === undefined)
